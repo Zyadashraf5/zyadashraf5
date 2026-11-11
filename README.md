@@ -40,14 +40,29 @@ POS · Food delivery · HR/ERP · Fintech · E-commerce · Social
 
 ---
 
-## 🔍 Code samples — publication pending
+## 🔍 Code you can review
 
-Most of my client work lives in private repositories. I am preparing the following two code samples for public release. They are currently private, so repository links will become accessible after publication:
+Two code samples with real screenshots, reproducible local demos and automated checks. Each README explains the architecture, test coverage and production tradeoffs.
 
-| Repository | What it shows |
+| Project | What to look at |
 |---|---|
-| [**flutter-pos-clean-architecture**](https://github.com/Zyadashraf5/flutter-pos-clean-architecture) | Offline-first POS for phone shops. Clean Architecture (domain / data / presentation), use cases tested with in-memory fakes, role-based route guards, Hive + Firestore, CI on every push. |
-| [**atelier-flutter-ecommerce**](https://github.com/Zyadashraf5/atelier-flutter-ecommerce) | E-commerce app with Firebase Auth and Firestore. One pricing rule set for cart, checkout and saved orders; Firestore security rules tested on the emulator in CI. |
+| [**Cashiere POS**](https://github.com/Zyadashraf5/flutter-pos-clean-architecture) | Arabic/English retail POS. Clean Architecture, role-based navigation, Hive + Firestore, **43 Flutter tests**, strict analysis, web and Android debug builds. |
+| [**Atelier Commerce**](https://github.com/Zyadashraf5/atelier-flutter-ecommerce) | Flutter + Firebase Auth + Cloud Functions. Server-owned prices, atomic stock reservations, safe retries, **44 tests** across app, checkout and security rules; web and Android debug builds. |
+
+<table>
+<tr>
+<td width="50%">
+<a href="https://github.com/Zyadashraf5/flutter-pos-clean-architecture"><img src="https://raw.githubusercontent.com/Zyadashraf5/flutter-pos-clean-architecture/main/docs/screenshots/dashboard-desktop.png" alt="Cashiere POS Arabic dashboard" width="420"/></a>
+<br/><sub>Retail POS · Arabic and English</sub>
+</td>
+<td width="50%">
+<a href="https://github.com/Zyadashraf5/atelier-flutter-ecommerce"><img src="https://raw.githubusercontent.com/Zyadashraf5/atelier-flutter-ecommerce/main/docs/screenshots/home-desktop.png" alt="Atelier responsive collection" width="420"/></a>
+<br/><sub>Commerce · trusted checkout</sub>
+</td>
+</tr>
+</table>
+
+<sub>Actual screenshots from local emulator demos with fictional data. These samples are not live payment services.</sub>
 
 ---
 
