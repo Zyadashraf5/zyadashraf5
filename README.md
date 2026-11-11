@@ -40,9 +40,9 @@ POS · Food delivery · HR/ERP · Fintech · E-commerce · Social
 
 ---
 
-## 🔍 Code you can read
+## 🔍 Code samples — publication pending
 
-Most of my client work lives in private repositories, so these two projects are public to show how I build:
+Most of my client work lives in private repositories. I am preparing the following two code samples for public release. They are currently private, so repository links will become accessible after publication:
 
 | Repository | What it shows |
 |---|---|
