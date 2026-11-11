@@ -35,8 +35,19 @@ POS · Food delivery · HR/ERP · Fintech · E-commerce · Social
 | **Shella** | Food & grocery delivery platform. I delivered all 3 Flutter apps: customer, restaurant and driver, plus parts of the Laravel backend. **100+ downloads.** | [<img src="https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=googleplay&logoColor=white"/>](https://play.google.com/store/apps/details?id=com.food.shala) |
 | **Intel Link** | HR app: attendance, leave, payroll and reports. Built with Clean Architecture and released on both stores. **100+ downloads.** | [<img src="https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=googleplay&logoColor=white"/>](https://play.google.com/store/apps/details?id=com.intellink.hr) [<img src="https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white"/>](https://apps.apple.com/id/app/intel-link/id6749636438) |
 | **Clicks POS** | Point-of-sale for shops, cafes and restaurants, with offline sales, barcode invoicing and inventory. I improve it inside its live codebase. **100+ downloads.** | [<img src="https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=googleplay&logoColor=white"/>](https://play.google.com/store/apps/details?id=com.clicks.pos) [<img src="https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white"/>](https://apps.apple.com/eg/app/clicks-pos/id6747465153) |
-| **Ward FX** | Forex and crypto analysis with real-time tracking of currency pairs and coins. | [<img src="https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=googleplay&logoColor=white"/>](https://play.google.com/store/apps/details?id=com.wardfxadvisory.wardfxapp) <img src="https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white"/> |
+| **Ward FX** | Forex and crypto analysis with real-time tracking of currency pairs and coins. | [<img src="https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=googleplay&logoColor=white"/>](https://play.google.com/store/apps/details?id=com.wardfxadvisory.wardfxapp) |
 | **Rowniqi** | Snap your outfit when you meet someone, then see what you wore with them last time. Built from scratch with Riverpod. | [<img src="https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=googleplay&logoColor=white"/>](https://play.google.com/store/apps/details?id=rowniqi.com) <img src="https://img.shields.io/badge/App_Store-in_review-lightgrey?style=flat-square&logo=appstore&logoColor=white"/> |
+
+---
+
+## 🔍 Code you can read
+
+Most of my client work lives in private repositories, so these two projects are public to show how I build:
+
+| Repository | What it shows |
+|---|---|
+| [**flutter-pos-clean-architecture**](https://github.com/Zyadashraf5/flutter-pos-clean-architecture) | Offline-first POS for phone shops. Clean Architecture (domain / data / presentation), use cases tested with in-memory fakes, role-based route guards, Hive + Firestore, CI on every push. |
+| [**atelier-flutter-ecommerce**](https://github.com/Zyadashraf5/atelier-flutter-ecommerce) | E-commerce app with Firebase Auth and Firestore. One pricing rule set for cart, checkout and saved orders; Firestore security rules tested on the emulator in CI. |
 
 ---
 
@@ -48,7 +59,7 @@ class ZyadAshraf extends FlutterDeveloper {
   final architecture = ['Clean Architecture', 'MVVM', 'MVC'];
 
   @override
-  final stateManagement = ['Riverpod', 'BLoC', 'Provider', 'GetX'];
+  final stateManagement = ['GetX', 'BLoC', 'Riverpod', 'Provider'];
 
   @override
   final integrations = [
@@ -103,7 +114,7 @@ class ZyadAshraf extends FlutterDeveloper {
 
 | Role | Company | When |
 |---|---|---|
-| Flutter Developer | **Kitchen Machine** · Cairo | Sep 2026 – Present |
+| Flutter Developer | **Kitchen Machine** · Cairo (rejoined) | Sep 2026 – Present |
 | Flutter Developer | **Shala Group** · Food & grocery delivery | Apr 2025 – Jul 2026 |
 | Flutter Developer | **Knowledge Bonds Co.** · Saudi Arabia, remote | Aug 2024 – Apr 2025 |
 | Flutter Developer | **YavCode** · Remote | Aug 2023 – Aug 2024 |
@@ -118,10 +129,10 @@ class ZyadAshraf extends FlutterDeveloper {
 |---|---|---|
 | **Kayanat** | HR & ERP | Clean Architecture, manager and staff workflows, FCM |
 | **FormuLyn** | Contracts | Contracts generated from forms, e-signatures, payment gateway |
-| **Nashi** | Sports social | Riverpod, real-time feed over Socket.io, backend work |
+| **Nashi** | Sports social | Real-time feed over Socket.io, backend work |
 | **Oppa Chat** | Social | Live voice rooms with ZEGOCLOUD, virtual gifts, chat |
 | **Diarna** | Real estate | Google Maps, in-app buyer/seller chat, Firebase |
-| **Build Bonds** | Marketplace | Construction supplies marketplace with Riverpod |
+| **Build Bonds** | Marketplace | Construction supplies marketplace with BLoC |
 | **Motawa3** | Delivery | Store-to-courier delivery with tracking |
 | **Shippify** | Cross-border shopping | Buyers matched with travelers who carry their orders |
 | **Cashairan POS** | Retail | Sales, inventory, accounting and reports |
@@ -134,17 +145,6 @@ class ZyadAshraf extends FlutterDeveloper {
 
 ---
 
-## 📈 GitHub stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Zyadashraf5&show_icons=true&hide_border=true&theme=tokyonight&count_private=true" alt="GitHub stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zyadashraf5&layout=compact&hide_border=true&theme=tokyonight" alt="Top languages"/>
-
-</div>
-
----
-
 <div align="center">
 
 ### 🤝 Got a Flutter app that needs to ship, or one that stopped building?
@@ -153,8 +153,5 @@ Send me the problem and I'll reply with the first steps I'd take.
 
 **[zyadashraf48@gmail.com](mailto:zyadashraf48@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/zyad-ashraf-flutter)** · **[Upwork](https://www.upwork.com/freelancers/~01f783ee63786311ea)**
 
-<br/>
-
-![Profile views](https://komarev.com/ghpvc/?username=Zyadashraf5&color=02569B&style=flat-square&label=Profile+views)
 
 </div>
