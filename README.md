@@ -42,7 +42,33 @@ POS · Food delivery · HR/ERP · Fintech · E-commerce · Social
 
 ## 🔍 Code you can review
 
-Four code samples with real screenshots, reproducible local previews and automated checks. Each README explains the architecture, test coverage and production tradeoffs.
+**Flutter is my main focus.** Explore three Flutter code samples covering commerce, workforce and retail, plus a supporting full-stack project. Each repository includes real screenshots, a local preview and automated checks.
+
+### Flutter mobile previews
+
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
+<a href="https://github.com/Zyadashraf5/atelier-flutter-ecommerce"><img src="https://raw.githubusercontent.com/Zyadashraf5/atelier-flutter-ecommerce/main/docs/screenshots/home-mobile.png" alt="Atelier Flutter mobile storefront" width="230"/></a>
+<br/><b>Atelier Commerce</b>
+<br/><sub>Flutter · mobile shopping</sub>
+</td>
+<td width="33%" align="center" valign="top">
+<a href="https://github.com/Zyadashraf5/orbit-workforce"><img src="https://raw.githubusercontent.com/Zyadashraf5/orbit-workforce/main/docs/screenshots/overview-mobile.png" alt="Orbit Flutter mobile employee overview" width="230"/></a>
+<br/><b>Orbit Workforce</b>
+<br/><sub>Flutter · employee experience</sub>
+</td>
+<td width="33%" align="center" valign="top">
+<a href="https://github.com/Zyadashraf5/orbit-workforce"><img src="https://raw.githubusercontent.com/Zyadashraf5/orbit-workforce/main/docs/screenshots/requests-arabic-mobile.png" alt="Orbit Flutter mobile leave requests in Arabic with RTL layout" width="230"/></a>
+<br/><b>Arabic &amp; RTL</b>
+<br/><sub>Flutter · localized mobile layouts</sub>
+</td>
+</tr>
+</table>
+
+<sub>Actual Flutter application captures at mobile screen sizes, using fictional local demo data. These are not store-release screenshots.</sub>
+
+### Explore the code
 
 | Project | What to look at |
 |---|---|
@@ -51,30 +77,26 @@ Four code samples with real screenshots, reproducible local previews and automat
 | [**Orbit Workforce**](https://github.com/Zyadashraf5/orbit-workforce) | Flutter HR portfolio edition. Redesigned EN/AR RTL screens, responsive navigation, offline attendance and leave requests, **8 tests**, clean analysis, web and Android debug builds. |
 | [**Nordhaven Commerce**](https://github.com/Zyadashraf5/nordhaven-commerce) | Full-stack TypeScript: Next.js + NestJS + PostgreSQL. Transactional inventory, idempotent orders, **416 backend unit tests + 223 frontend tests**, and an explicit read-only catalogue preview. |
 
+<details>
+<summary><b>Desktop layouts &amp; supporting full-stack work</b></summary>
+<br/>
+
 <table>
 <tr>
-<td width="50%">
-<a href="https://github.com/Zyadashraf5/flutter-pos-clean-architecture"><img src="https://raw.githubusercontent.com/Zyadashraf5/flutter-pos-clean-architecture/main/docs/screenshots/dashboard-desktop.png" alt="Cashiere POS Arabic dashboard" width="420"/></a>
-<br/><sub>Retail POS · Arabic and English</sub>
+<td width="50%" valign="top">
+<a href="https://github.com/Zyadashraf5/flutter-pos-clean-architecture"><img src="https://raw.githubusercontent.com/Zyadashraf5/flutter-pos-clean-architecture/main/docs/screenshots/dashboard-desktop.png" alt="Cashiere Flutter POS desktop layout" width="420"/></a>
+<br/><sub>Cashiere POS · responsive Flutter retail workspace</sub>
 </td>
-<td width="50%">
-<a href="https://github.com/Zyadashraf5/atelier-flutter-ecommerce"><img src="https://raw.githubusercontent.com/Zyadashraf5/atelier-flutter-ecommerce/main/docs/screenshots/home-desktop.png" alt="Atelier responsive collection" width="420"/></a>
-<br/><sub>Commerce · trusted checkout</sub>
-</td>
-</tr>
-<tr>
-<td width="50%">
-<a href="https://github.com/Zyadashraf5/orbit-workforce"><img src="https://raw.githubusercontent.com/Zyadashraf5/orbit-workforce/main/docs/screenshots/overview-desktop.png" alt="Orbit Workforce redesigned employee overview" width="420"/></a>
-<br/><sub>Workforce · offline EN/AR portfolio edition</sub>
-</td>
-<td width="50%">
-<a href="https://github.com/Zyadashraf5/nordhaven-commerce"><img src="https://raw.githubusercontent.com/Zyadashraf5/nordhaven-commerce/main/docs/screenshots/storefront-desktop.png" alt="Nordhaven Commerce storefront" width="420"/></a>
-<br/><sub>Full-stack commerce · read-only portfolio preview</sub>
+<td width="50%" valign="top">
+<a href="https://github.com/Zyadashraf5/nordhaven-commerce"><img src="https://raw.githubusercontent.com/Zyadashraf5/nordhaven-commerce/main/docs/screenshots/storefront-desktop.png" alt="Nordhaven full-stack commerce storefront" width="420"/></a>
+<br/><sub>Nordhaven · supporting Next.js / NestJS project</sub>
 </td>
 </tr>
 </table>
 
-<sub>Actual local application screenshots with fictional data. Orbit and Nordhaven are rebranded portfolio editions, not additional apps claimed to be live on stores. Preview scope and production limitations are documented in each repository.</sub>
+</details>
+
+<sub>Orbit and Nordhaven are rebranded portfolio editions, not additional apps claimed to be live on stores. Preview scope and production limitations are documented in each repository.</sub>
 
 ---
 
