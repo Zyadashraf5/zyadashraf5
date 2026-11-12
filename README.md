@@ -33,7 +33,7 @@ POS · Food delivery · HR/ERP · Fintech · E-commerce · Social
 | App | What it is | Stores |
 |---|---|---|
 | **Shella** | Food & grocery delivery platform. I delivered all 3 Flutter apps: customer, restaurant and driver, plus parts of the Laravel backend. **100+ downloads.** | [<img src="https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=googleplay&logoColor=white"/>](https://play.google.com/store/apps/details?id=com.food.shala) |
-| **Intel Link** | HR app: attendance, leave, payroll and reports. Built with Clean Architecture and released on both stores. **100+ downloads.** | [<img src="https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=googleplay&logoColor=white"/>](https://play.google.com/store/apps/details?id=com.intellink.hr) [<img src="https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white"/>](https://apps.apple.com/id/app/intel-link/id6749636438) |
+| **Intel Link** | HR app: attendance, leave, payroll and reports. Location-based attendance, Odoo integration and releases on both stores. **100+ downloads.** | [<img src="https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=googleplay&logoColor=white"/>](https://play.google.com/store/apps/details?id=com.intellink.hr) [<img src="https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white"/>](https://apps.apple.com/id/app/intel-link/id6749636438) |
 | **Clicks POS** | Point-of-sale for shops, cafes and restaurants, with offline sales, barcode invoicing and inventory. I improve it inside its live codebase. **100+ downloads.** | [<img src="https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=googleplay&logoColor=white"/>](https://play.google.com/store/apps/details?id=com.clicks.pos) [<img src="https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white"/>](https://apps.apple.com/eg/app/clicks-pos/id6747465153) |
 | **Ward FX** | Forex and crypto analysis with real-time tracking of currency pairs and coins. | [<img src="https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=googleplay&logoColor=white"/>](https://play.google.com/store/apps/details?id=com.wardfxadvisory.wardfxapp) |
 | **Rowniqi** | Snap your outfit when you meet someone, then see what you wore with them last time. Built from scratch with Riverpod. | [<img src="https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=googleplay&logoColor=white"/>](https://play.google.com/store/apps/details?id=rowniqi.com) <img src="https://img.shields.io/badge/App_Store-in_review-lightgrey?style=flat-square&logo=appstore&logoColor=white"/> |
@@ -42,12 +42,14 @@ POS · Food delivery · HR/ERP · Fintech · E-commerce · Social
 
 ## 🔍 Code you can review
 
-Two code samples with real screenshots, reproducible local demos and automated checks. Each README explains the architecture, test coverage and production tradeoffs.
+Four code samples with real screenshots, reproducible local previews and automated checks. Each README explains the architecture, test coverage and production tradeoffs.
 
 | Project | What to look at |
 |---|---|
 | [**Cashiere POS**](https://github.com/Zyadashraf5/flutter-pos-clean-architecture) | Arabic/English retail POS. Clean Architecture, role-based navigation, Hive + Firestore, **43 Flutter tests**, strict analysis, web and Android debug builds. |
 | [**Atelier Commerce**](https://github.com/Zyadashraf5/atelier-flutter-ecommerce) | Flutter + Firebase Auth + Cloud Functions. Server-owned prices, atomic stock reservations, safe retries, **44 tests** across app, checkout and security rules; web and Android debug builds. |
+| [**Orbit Workforce**](https://github.com/Zyadashraf5/orbit-workforce) | Flutter HR portfolio edition. Redesigned EN/AR RTL screens, responsive navigation, offline attendance and leave requests, **8 tests**, clean analysis, web and Android debug builds. |
+| [**Nordhaven Commerce**](https://github.com/Zyadashraf5/nordhaven-commerce) | Full-stack TypeScript: Next.js + NestJS + PostgreSQL. Transactional inventory, idempotent orders, **416 backend unit tests + 223 frontend tests**, and an explicit read-only catalogue preview. |
 
 <table>
 <tr>
@@ -60,9 +62,19 @@ Two code samples with real screenshots, reproducible local demos and automated c
 <br/><sub>Commerce · trusted checkout</sub>
 </td>
 </tr>
+<tr>
+<td width="50%">
+<a href="https://github.com/Zyadashraf5/orbit-workforce"><img src="https://raw.githubusercontent.com/Zyadashraf5/orbit-workforce/main/docs/screenshots/overview-desktop.png" alt="Orbit Workforce redesigned employee overview" width="420"/></a>
+<br/><sub>Workforce · offline EN/AR portfolio edition</sub>
+</td>
+<td width="50%">
+<a href="https://github.com/Zyadashraf5/nordhaven-commerce"><img src="https://raw.githubusercontent.com/Zyadashraf5/nordhaven-commerce/main/docs/screenshots/storefront-desktop.png" alt="Nordhaven Commerce storefront" width="420"/></a>
+<br/><sub>Full-stack commerce · read-only portfolio preview</sub>
+</td>
+</tr>
 </table>
 
-<sub>Actual screenshots from local emulator demos with fictional data. These samples are not live payment services.</sub>
+<sub>Actual local application screenshots with fictional data. Orbit and Nordhaven are rebranded portfolio editions, not additional apps claimed to be live on stores. Preview scope and production limitations are documented in each repository.</sub>
 
 ---
 
