@@ -49,7 +49,7 @@ POS · Food delivery · HR/ERP · Fintech · E-commerce · Social
 <table>
 <tr>
 <td width="33%" align="center" valign="top">
-<a href="https://github.com/Zyadashraf5/atelier-flutter-ecommerce"><img src="https://raw.githubusercontent.com/Zyadashraf5/atelier-flutter-ecommerce/main/docs/screenshots/home-mobile.png" alt="Atelier Flutter mobile storefront" width="230"/></a>
+<a href="https://github.com/Zyadashraf5/atelier-flutter-ecommerce"><img src="https://raw.githubusercontent.com/Zyadashraf5/atelier-flutter-ecommerce/main/docs/screenshots/home-mobile-preview.png" alt="Atelier Flutter mobile storefront" width="230"/></a>
 <br/><b>Atelier Commerce</b>
 <br/><sub>Flutter · mobile shopping</sub>
 </td>
@@ -59,9 +59,9 @@ POS · Food delivery · HR/ERP · Fintech · E-commerce · Social
 <br/><sub>Flutter · employee experience</sub>
 </td>
 <td width="33%" align="center" valign="top">
-<a href="https://github.com/Zyadashraf5/orbit-workforce"><img src="https://raw.githubusercontent.com/Zyadashraf5/orbit-workforce/main/docs/screenshots/requests-arabic-mobile.png" alt="Orbit Flutter mobile leave requests in Arabic with RTL layout" width="230"/></a>
-<br/><b>Arabic &amp; RTL</b>
-<br/><sub>Flutter · localized mobile layouts</sub>
+<a href="https://github.com/Zyadashraf5/flutter-pos-clean-architecture"><img src="https://raw.githubusercontent.com/Zyadashraf5/flutter-pos-clean-architecture/main/docs/screenshots/dashboard-mobile.png" alt="Cashiere POS English mobile sales dashboard" width="230"/></a>
+<br/><b>Cashiere POS</b>
+<br/><sub>Flutter · sales &amp; inventory</sub>
 </td>
 </tr>
 </table>
